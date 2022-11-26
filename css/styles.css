@@ -1,0 +1,965 @@
+/*
+        DEFAULT THEME
+
+    FONTS: Raleway Open Sans
+    COLORS:
+        Rich Black  : #011627
+        Baby Powder : #FDFFFC
+        Tiffany Blue: #2EC4B6
+        Rose Madder : #E71D36
+        Orange Peel : #FF9F1C
+
+
+
+*/
+
+
+#supremeParent{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #011627;
+    z-index: 1;
+}
+
+
+#children01{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+#children02{
+    z-index: 99;
+}
+
+
+
+/* 
+
+**********************************************************
+                        universal
+
+**********************************************************
+ */
+.typewriter p{
+    font-family: "Anonymous Pro", sans-serif;
+    color: #FDFFFC;
+    font-size: 1.9em;
+}
+
+.content-box-lg{
+    
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.child1{
+    
+    
+    
+    background-image: linear-gradient(to right, rgb(1, 22, 39), rgba(1, 22, 39, 0.822), rgba(1, 22, 39, 0.719), rgba(1, 22, 39, 0.616), rgba(1, 22, 39, 0.507) , rgba(255, 255, 0, 0));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:  2;
+}
+
+.child2{
+    
+    min-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    
+    z-index:  1;
+}
+
+
+
+
+
+.lContainer{
+    background-color: rgba(128, 255, 0, 0);
+    z-index: 93;
+}
+
+.rContainer{
+    
+    height: 500px;
+    background-color: #FF9F1C;
+    z-index: 12;
+}
+
+
+.htmlClass{
+    font-family: "Cedarville Cursive", sans-serif;
+    font-size:1.5em;
+    color: #FF9F1C
+}
+
+#canvas{
+    max-width: 100%;
+    max-height: 100%;
+	
+}
+
+
+
+
+
+
+
+/*  HOME */
+
+/*  ABOUT */
+
+/* 
+
+**********************************************************
+                        SKILLS
+
+**********************************************************
+ */
+
+/* SVG 3D TAg*/
+
+.skill{
+    position: relative;
+    top:0;
+    left: 0;
+
+}
+
+.child1sk{
+    
+    background-image: radial-gradient(#011627b9,#011627cb,#011627);
+    /*background-image: linear-gradient(to right, #011627,#011627, #011627, #011627, #01162794 , #01162752);
+    background-color: #011627;*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:  2;
+}
+
+.child2sk{
+    
+    background-color:rgba(212, 201, 42, 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:  22;
+    vertical-align: middle;
+    text-align: center;
+    display: table;
+    
+}
+
+#tag{
+    
+    display: table-cell;
+    vertical-align: middle;
+    
+    z-index: 99;
+    transform: translateY(20%);
+    
+}
+
+.child3sk{
+    
+    
+    
+    background-color:#0116276e;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index:  23;
+    
+    top: 0%;
+    left: 10%;
+}
+
+
+
+
+
+
+
+.skills-svg{
+    background-color: red;
+}
+
+
+
+
+.txtClr{
+    background-color: rgba(0, 0, 0, 0) ;
+}
+
+
+.text-wid p a{
+ color: #2EC4B6;
+}
+
+.text-wid p a:hover{
+    color: #FF9F1C;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+.text-widd{
+    width:95%;
+    
+    transform: translateX(5%);
+}
+/* 
+
+**********************************************************
+                        My WORKS
+
+**********************************************************
+ */
+
+
+
+
+#isotope-filters {
+    margin-bottom: 10px;
+    padding: 20px 25px 20px 0;
+    
+}
+#isotope-filters button{
+    font-family: "Raleway",sans-serif;
+    font-size:12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-right: 35px;
+    outline: 0;
+    color: #2EC4B6;
+}
+#isotope-filters button span {
+    display: block;
+    padding-bottom: 5px;
+    -webkit-transition:  border-color .4s ease-in-out;
+    transition:  border-color .4s ease-in-out;
+    
+}
+
+#isotope-filters button.active span{
+    color: #E71D36;
+    border-bottom: 3px solid #E71D36    ;
+    
+}
+
+
+/* Zoom Effect */
+.portfolio-item img{
+    width: 100%;
+    height: auto;
+    -webkit-transition: -webkit-transform .5s ease; 
+    transition: -webkit-transform .5s ease; 
+    transition: transform .5s ease; 
+    transition: transform .5s ease, -webkit-transform .5s ease;
+}
+.portfolio-item:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}
+
+/* center the projects */
+.portfolio-item-details{
+    text-align: center;
+    color: #FDFFFC;
+    
+}
+
+.portfolio-item-details:hover{
+    color: #FF9F1C;
+    
+}
+
+.portfolio-item a{
+    text-decoration: none;
+}
+
+
+
+**********************************************************
+                        CONTACTS
+
+**********************************************************
+ */
+
+
+#parent-contact{
+    position: relative;
+    z-index: 9999;
+    
+}
+
+#child-contact{
+    position: absolute;
+    background-color: rgb(229, 255, 0);
+    top: 50%;
+    z-index: 9999;
+}/*============================================
+            Social Icons
+============================================*/
+ul.social-list { 
+    padding-left: 60px ;
+    margin-top: 20px;
+    
+}
+
+ul.social-list li{
+    display: inline;
+    padding: 0;
+}
+
+ul.social-list li a{
+    border: 2px solid #fff;
+    
+    display: inline-block;
+    text-align: center;
+    padding-top: 4px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-transition: all 400ms linear;transition: all 400ms linear;
+    
+    
+}
+
+ul.social-list li:nth-child(1) a:hover{
+    background: linear-gradient(45deg, #405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D);
+    border-color: transparent;
+    
+    
+}
+ul.social-list li:nth-child(2) a:hover{
+    background: #333333;
+    border-color: transparent;
+    
+}ul.social-list li:nth-child(3) a:hover{
+    background: #136BB7;
+    border-color: transparent;
+    
+}
+ul.social-list li:nth-child(4) a:hover{
+    background: #dd4b39;
+    border-color: transparent;
+    
+}
+/*
+NAVIGation */
+nav{
+    background-color: #FF9F1C;
+
+}
+
+.navbar{
+    padding: 10px 0 8px 0;
+}
+
+.site-nav-wrapper{
+    padding: 0 85px;
+}
+
+.navbar-brand{
+    padding: 13px 15px;
+}
+
+ul.navbar-nav > li > a{
+    font-family: "Raleway",sans-serif;
+    color: #FDFFFC;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus{
+    background: none;
+    color: #E71D36;
+}
+
+ul.navbar-nav > li.active > a {
+    font-weight: 500;
+    color: #E71D36;
+}
+
+
+/*
+Footer */
+
+footer{
+    background: #E71D36;
+    padding: 7px;
+    z-index: 200;
+    
+
+
+}
+footer p{
+    color: #FDFFFC;
+    line-height: 20px;
+}
+
+footer p span{
+    color: #FF9F1C
+}
+
+
+/* MAP*/
+
+
+#map {  width: 500px; height: 500px; z-index: 10000;}
+
+.marker {
+    background-image: url('/img/map/pin-location.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .mapboxgl-popup {
+    max-width: 200px;
+  }
+  
+  .mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+
+
+  /*============================================
+           slider for my education
+============================================*/
+@media (min-width: 1281px) {
+  
+    .slider{
+   
+        margin-top: 20%;
+        
+        height: 170px;
+        z-index: 99;
+    }
+    .slidermain{
+        max-width: 90%;
+        /* The position of the element is set relative to its original position: */
+        position: relative;
+        /* Center horizontally: */
+        margin-top: 2%;
+        margin-bottom: -10%;
+        height: 170px;
+        z-index: 99;
+    }
+    /* The picture is scaled in relation to the parent element: */
+    .slidermain .item img {
+        /* The element is resized to fill the block and maintain proportions: */
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 6%;
+       
+        
+    }
+    /* Back and forward buttons: */
+    .slider .previous {
+        /* Adds an icon to the cursor when it is over the button: */
+        cursor: pointer;
+        /* The position of the element is set relative to the borders of the browser: */
+        position: absolute;
+        top: 20%;
+        left:40%;
+        width: 5%;
+        margin-top: -22px;
+        padding: 16px;
+        /* Styling the buttons themselves: */
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        /* Background fading on hover: */
+        transition: 0.6s ease;
+        /* Rounding the borders: */
+        border-radius: 0 3px 3px 0;
+    }
+    .slider .next {
+        /* Adds an icon to the cursor when it is over the button: */
+        cursor: pointer;
+        /* The position of the element is set relative to the borders of the browser: */
+        position: absolute;
+        top: 20%;
+        left:60%;
+        width: 5%;
+        margin-top: -22px;
+        padding: 16px;
+        /* Styling the buttons themselves: */
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        /* Background fading on hover: */
+        transition: 0.6s ease;
+        /* Rounding the borders: */
+        border-radius: 0 3px 3px 0;
+    }
+    .slider .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* When you hover over the buttons, add the background of the buttons: */
+    .slider .previous:hover,
+    .slider .next:hover {
+        background-color: rgba(0, 0, 0, 0.657);
+    }
+    /* Slide animation: */
+    .slider .item {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        /* Set and change the transparency: */
+        from {
+            opacity: 0.4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    .item{
+        color: white;
+        font-family: "Anonymous Pro", sans-serif;
+        font-size: large;
+    }
+    
+  }
+  
+
+
+  @media (min-width: 1025px) and (max-width: 1280px) 
+{
+/* The slider: */
+.slider{
+   
+    margin-top: 20%;
+    
+    height: 170px;
+    z-index: 99;
+}
+.slidermain{
+    max-width: 90%;
+    /* The position of the element is set relative to its original position: */
+    position: relative;
+    /* Center horizontally: */
+    margin-top: 2%;
+    margin-bottom: -10%;
+    height: 170px;
+    z-index: 99;
+}
+/* The picture is scaled in relation to the parent element: */
+.slidermain .item img {
+    /* The element is resized to fill the block and maintain proportions: */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 6%;
+   
+    
+}
+/* Back and forward buttons: */
+.slider .previous {
+    /* Adds an icon to the cursor when it is over the button: */
+    cursor: pointer;
+    /* The position of the element is set relative to the borders of the browser: */
+    position: absolute;
+    top: 20%;
+    left:40%;
+    width: 5%;
+    margin-top: -22px;
+    padding: 16px;
+    /* Styling the buttons themselves: */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    /* Background fading on hover: */
+    transition: 0.6s ease;
+    /* Rounding the borders: */
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    /* Adds an icon to the cursor when it is over the button: */
+    cursor: pointer;
+    /* The position of the element is set relative to the borders of the browser: */
+    position: absolute;
+    top: 20%;
+    left:60%;
+    width: 5%;
+    margin-top: -22px;
+    padding: 16px;
+    /* Styling the buttons themselves: */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    /* Background fading on hover: */
+    transition: 0.6s ease;
+    /* Rounding the borders: */
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* When you hover over the buttons, add the background of the buttons: */
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.657);
+}
+/* Slide animation: */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    /* Set and change the transparency: */
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+.item{
+    color: white;
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: large;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .slider{
+        
+        margin-top: 3%;
+        
+        height: 300px;
+        z-index: 99;
+    }
+    .slidermain{
+        max-width: 90%;
+        /* The position of the element is set relative to its original position: */
+        position: relative;
+        /* Center horizontally: */
+        margin-top: 2%;
+        margin-bottom: -10%;
+        height: 300px;
+        z-index: 99;
+    }
+    /* The picture is scaled in relation to the parent element: */
+    .slidermain .item img {
+        /* The element is resized to fill the block and maintain proportions: */
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 6%;
+       
+        
+    }
+    /* Back and forward buttons: */
+    .slider .previous {
+        /* Adds an icon to the cursor when it is over the button: */
+        cursor: pointer;
+        /* The position of the element is set relative to the borders of the browser: */
+        position: absolute;
+        top: 50%;
+        left:40%;
+        width: 5%;
+        margin-top: -22px;
+        padding: 16px;
+        /* Styling the buttons themselves: */
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        /* Background fading on hover: */
+        transition: 0.6s ease;
+        /* Rounding the borders: */
+        border-radius: 0 3px 3px 0;
+    }
+    .slider .next {
+        /* Adds an icon to the cursor when it is over the button: */
+        cursor: pointer;
+        /* The position of the element is set relative to the borders of the browser: */
+        position: absolute;
+        top: 50%;
+        left:60%;
+        width: 5%;
+        margin-top: -22px;
+        padding: 16px;
+        /* Styling the buttons themselves: */
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        /* Background fading on hover: */
+        transition: 0.6s ease;
+        /* Rounding the borders: */
+        border-radius: 0 3px 3px 0;
+    }
+    .slider .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* When you hover over the buttons, add the background of the buttons: */
+    .slider .previous:hover,
+    .slider .next:hover {
+        background-color: rgba(0, 0, 0, 0.657);
+    }
+    /* Slide animation: */
+    .slider .item {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        /* Set and change the transparency: */
+        from {
+            opacity: 0.4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    .item{
+        color: white;
+        font-family: "Anonymous Pro", sans-serif;
+        font-size: large;
+    }
+    .slidertext{
+        margin-top: 10%;
+    }
+    .sliderspacep{
+        margin-top:17%;
+    }
+   
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .slider{
+        margin-top:-15%;
+        height: 300px;
+        z-index: 99;
+    }
+    .slidermain{
+        max-width: 90%;
+        /* The position of the element is set relative to its original position: */
+        position: relative;
+        /* Center horizontally: */
+        margin-top: 2%;
+       
+        height: 300px;
+        z-index: 99;
+    }
+    /* The picture is scaled in relation to the parent element: */
+    .slidermain .item img {
+        /* The element is resized to fill the block and maintain proportions: */
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 6%;
+       
+        
+    }
+    /* Back and forward buttons: */
+    .slider .previous {
+        /* Adds an icon to the cursor when it is over the button: */
+        cursor: pointer;
+        /* The position of the element is set relative to the borders of the browser: */
+        position: absolute;
+        top: 0%;
+        left:40%;
+        width: 5%;
+        margin-top: -22px;
+        padding: 16px;
+        /* Styling the buttons themselves: */
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        /* Background fading on hover: */
+        transition: 0.6s ease;
+        /* Rounding the borders: */
+        border-radius: 0 3px 3px 0;
+    }
+    .slider .next {
+        /* Adds an icon to the cursor when it is over the button: */
+        cursor: pointer;
+        /* The position of the element is set relative to the borders of the browser: */
+        position: absolute;
+        top:0%;
+        left:60%;
+        width: 5%;
+        margin-top: -22px;
+        padding: 16px;
+        /* Styling the buttons themselves: */
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        /* Background fading on hover: */
+        transition: 0.6s ease;
+        /* Rounding the borders: */
+        border-radius: 0 3px 3px 0;
+    }
+    .slider .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* When you hover over the buttons, add the background of the buttons: */
+    .slider .previous:hover,
+    .slider .next:hover {
+        background-color: rgba(0, 0, 0, 0.657);
+    }
+    /* Slide animation: */
+    .slider .item {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        /* Set and change the transparency: */
+        from {
+            opacity: 0.4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    .item{
+        color: white;
+        font-family: "Anonymous Pro", sans-serif;
+        font-size: large;
+    }
+    .slidertext{
+        margin-top: 10%;
+    }
+    .sliderspacep{
+        margin-top:25%;
+    }
+   
+  
+    
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .slider{
+        
+        
+        margin-top:-30%;
+        height: 300px;
+        z-index: 99;
+    }
+    .slidermain{
+        max-width: 90%;
+        /* The position of the element is set relative to its original position: */
+        position: relative;
+        /* Center horizontally: */
+        margin-top: 10%;
+       
+        height: 300px;
+        z-index: 99;
+    }
+    /* The picture is scaled in relation to the parent element: */
+    .slidermain .item img {
+        /* The element is resized to fill the block and maintain proportions: */
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 6%;
+       
+        
+    }
+    /* Back and forward buttons: */
+    .slider .previous {
+        /* Adds an icon to the cursor when it is over the button: */
+        cursor: pointer;
+        /* The position of the element is set relative to the borders of the browser: */
+        position: absolute;
+        top: 0%;
+        left:40%;
+        width: 5%;
+        
+        
+        /* Styling the buttons themselves: */
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        /* Background fading on hover: */
+        transition: 0.6s ease;
+        /* Rounding the borders: */
+        border-radius: 0 3px 3px 0;
+    }
+    .slider .next {
+        /* Adds an icon to the cursor when it is over the button: */
+        cursor: pointer;
+        /* The position of the element is set relative to the borders of the browser: */
+        position: absolute;
+        top:0%;
+        left:60%;
+        width: 5%;
+        
+        
+        /* Styling the buttons themselves: */
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        /* Background fading on hover: */
+        transition: 0.6s ease;
+        /* Rounding the borders: */
+        border-radius: 0 3px 3px 0;
+    }
+    .slider .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* When you hover over the buttons, add the background of the buttons: */
+    .slider .previous:hover,
+    .slider .next:hover {
+        background-color: rgba(0, 0, 0, 0.657);
+    }
+    /* Slide animation: */
+    .slidermain .item {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        /* Set and change the transparency: */
+        from {
+            opacity: 0.4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    .item{
+        color: white;
+        font-family: "Anonymous Pro", sans-serif;
+        font-size: large;
+    }
+    .slidertext{
+        margin-top: 30%;
+    }
+    .sliderspacep{
+        margin-top:10%;
+    }
+   
+    
+  }

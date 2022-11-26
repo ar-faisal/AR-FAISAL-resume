@@ -1,0 +1,109 @@
+/* Preloader */
+
+#preloader{
+    background-color: #011627;
+    position: fixed;
+    top: 0;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status{
+    background-image: url("../img/preloader/Rocket.png");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planet_01,
+.planet_02,
+.planet_03,
+.planet_04,
+.planet_05,
+.planet_06{
+    height: 100px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.planet_01{
+    top: 1%;
+    transform: translate(100%, -1%);
+    animation: planets 7s ease infinite;
+}
+
+
+.planet_02{
+    top: 17%;
+    transform: translate(100%, -17%);
+    animation: planets 8s ease infinite 2s;
+}
+
+.planet_03{
+    top: 32%;
+    transform: translate(100%, -32%);
+    animation: planets 5s ease infinite 1.5s;
+}
+
+.planet_04{
+    top: 48%;
+    transform: translate(100%, -48%);
+    animation: planets 6s ease infinite 2.5s;
+}
+
+.planet_05{
+    top: 64%;
+    transform: translate(100%, -64%);
+    animation: planets 7s ease infinite 1s;
+}
+
+.planet_06{
+    top: 80%;
+    transform: translate(100%, -80%);
+    animation: planets 7s ease infinite ;
+}
+
+.rocket{
+    height: 200px;
+    animation: rocket 1s ease infinite alternate;
+    z-index: 15;
+}
+
+#status h3{
+    position: absolute;
+    top: 75%;
+    transform: translateY(-75);
+    color: #FDFFFC;
+    font-size: 18pt;
+    font-family: "Raleway", sans-serif;
+    z-index: 15;
+}
+
+@keyframes rocket{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY( 50px);
+    }
+}
+
+@keyframes planets{
+    from{
+        right: 0%;
+
+    }
+    to{
+        right: 200%;
+    }
+}

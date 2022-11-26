@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--- META TAGS-->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- TITLE-->
+        <title> MY portfolio </title>
+        
+        <!-- ICON -->
+        <link rel="shortcut icon" href="img/favicon/favicon.png">
+
+        <!-- GOOGLE FONTS-->
+
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap" rel="stylesheet"> 
+
+        <!--PRELOADER CSS-->
+        <link rel="stylesheet" href="css/modules/preloader.css">
+
+        
+        
+        
+        <!--NEON LIGHTS CSS-->
+        <link rel="stylesheet" href="css/modules/neonLights.css">
+        
+        <!-- MAPBOX CSS -->
+        <link href="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css" rel="stylesheet" />
+
+        <!--FONT AWSOME-->
+        <link rel="stylesheet" href="css/font-awesome/css/all.css">
+        
+
+        <!-- BOOTSTRAP CSS -->
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+
+        
+
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- RESPONSIVE CSS -->
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-58REPKNLLM"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-58REPKNLLM');
+            </script>s
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="65">
+        
+        <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="100381518818130">
+      </div>
+        
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status"> &nbsp;
+                <img class="rocket" src="img/preloader/rocket.png" alt="rocket">
+                <h3> moving through time and space</h3>
+                <img class="planet_01" src="img/preloader/planet_01.png" alt="planet_01">
+                <img class="planet_02" src="img/preloader/planet_02.png" alt="planet_02">
+                <img class="planet_03" src="img/preloader/planet_03.png" alt="planet_03">
+                <img class="planet_04" src="img/preloader/planet_04.png" alt="planet_04">
+                <img class="planet_05" src="img/preloader/planet_05.png" alt="planet_05">
+                <img class="planet_06" src="img/preloader/planet_06.png" alt="planet_06">
+            </div>
+        </div>
+
+        <!-- HEADER-->
+        <header>
+            <nav class="navbar navbar-fixed-top">
+
+                <div class="container-fluid">
+                    <div class="site-nav-wrapper">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+
+                            <!-- Mobile menu open button-->
+                            <span id="mobile-nav-open-btn">&#9776;</span>
+                        
+                            <a href="#home"class="navbar-brand smooth-scroll">
+                                <img src="/img/logo/logo.png">
+                            </a>
+                        </div>
+                        <!-- Collection of nav links, forms, and other content for toggling -->
+                        <div class="container">
+                            <div class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav pull-right">
+                                    <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                    <li><a class="smooth-scroll" href="#about">About</a></li>
+                                    <li><a class="smooth-scroll" href="#skills">Skills</a></li>
+                                    <li><a class="smooth-scroll" href="#mywork">My Work</a></li>
+                                    <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                                </ul>
+                            
+                            </div>
+                        </div>
+
+                         <!-- mobile menu-->
+                         <div id="mobile-nav">
+                            <!-- mobile menu close button -->
+                            <span id="mobile-nav-close-btn">&times;</span>
+                            
+                            <div id="mobile-nav-content">
+                                <ul class="nav">
+                                    <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                    <li><a class="smooth-scroll" href="#about">About</a></li>
+                                    <li><a class="smooth-scroll" href="#skills">Skills</a></li>
+                                    <li><a class="smooth-scroll" href="#mywork">My Work</a></li>
+                                    <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                
+            </nav>
+        </header>
+
+        <div id="supremeParent">
+            <div id="children01">
+                <canvas id="canvas"></canvas>
+            </div>
+
+            <div id="children02">
+                
+                <!-- HOME-->
+                <section id="home">
+                    <div class="content-box-lg" >
+
+                        <div class="child1">
+
+                        </div>
+                
+                        <div class="container child3">
+                            <div class="row">
+                        
+                                <div class="col-md-6 lContainer">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480 mr767">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12">  <br>	 </div>
+                                            <div class="col-md-12">  <br>	 </div>
+                                            <div class="col-md-12">  <br>	 </div>
+                                            <div class="col-md-12">  <br>	</div>
+                                            <div class="col-md-12 htmlClass">  	&#60;body&#62; </div>
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;h1&#62; </div>
+                                            
+                                        
+                                            <div class="col-md-12 sign">
+                                                &nbsp;<span class="fast-flicker">&nbsp;&nbsp;H</span>i<span class="flicker">,</span>
+                                            
+                                            </div>
+                                        
+                                            <div class="col-md-12 sign">
+                                                &nbsp;<span class="fast-flicker">&nbsp;&nbsp;I'</span>am&nbsp;<span class="flicker">F</span><span class="fast-flicker">aisal</span>
+                                                
+                                            </div>
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;/h1&#62; </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;p&#62; </div>
+                                            <div class="col-md-12 typewriter" >
+                                                <p>&nbsp;&nbsp;&nbsp;Web Developer & Tech Enthusiast </p></div>
+                                                
+                                                <div class="col-md-12 ">   
+                                                    <div class="mr375 mr480">
+                                                        <br>
+                                                    </div>	 
+                                                </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;/p&#62; </div>
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  <br> <br></div>
+                                            <div class="col-md-12 htmlClass">  	&#60;/body&#62; </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ABOUT-->
+                <section id="about">
+                    <div class="content-box-lg" >
+
+                        <div class="child1">
+
+                        </div>
+
+                        
+                        
+                        <div class="container">
+                            <div class="row">
+                                
+                                <div class="col-md-6 lContainer">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="mr375 mr480 mr767">
+                                                    <br>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-md-12">  <br><br>	 </div>
+                                            <div class="col-md-12">  <br>	 </div>
+                                            
+                                            <div class="col-md-12 htmlClass">  	&#60;body&#62; </div>
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;h1&#62; </div>
+                                            
+                                            <div class="col-md-12 sign">
+                                            &nbsp;<span class="fast-flicker">&nbsp;&nbsp;A</span>bout&nbsp;<span class="flicker">M</span>e
+                                                
+                                            </div>
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;/h1&#62; </div>
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;p&#62; </div>
+                                            
+                                            <div class="col-md-12 typewriter text-wid" >
+
+                                                
+                                                <div class="text-widd">
+                                                    <p>Currently pursuing B.tech in Computer Science from a prestigious institute, SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY, an autonomous institute affiliated to JNTUH.</p> <br><br>
+                                                    
+                                                    <p>Well organised person, problem solver and a fast learner which gives a great attention to details. And very much excited to learn new technologies and programming languages. </p><br><br>
+                                                    <p>I am looking for Job opportunities in Software Development fields to gain valuable experience as well as to build on my skills and get to know how things work in the real world.</p>
+                                                    <p> Sneek Peek my <a href=pdfview.html>RESUME</a> :-)</p>
+                                                    <br><br>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;/p&#62; </div>
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&#60;/body&#62; </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </section>
+
+                <!-- SKILLS -->
+                <section id="skills">
+                    
+                    <div class="content-box-lg skill">
+
+                        <div class="child1sk">
+                                                    
+                        </div>
+                        
+                        <div class="child2sk">
+                            <div id="tag" >
+    
+                            </div>
+                        </div>
+                        
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    
+                                </div>
+                                <div class="col-md-12 lContainer">
+                                    <div class="container">
+                                        <div class="row ">
+                                            
+                                            <div class="col-md-12">
+                                                <div class="mr375 mr480 mr767">
+                                                    <br>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">  <br><br>	 </div>
+                                            <div class="col-md-12">  <br>	</div>
+                                            <div class="col-md-12 htmlClass">  	&#60;body&#62; </div>
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;h1&#62; </div>
+                                            <div class="col-md-12 sign">
+                                                &nbsp;<span class="fast-flicker">&nbsp;&nbsp;S</span>ki<span class="flicker">ll</span>s</span>
+                                                
+                                            </div>
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;/h1&#62; </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;p&#62; </div>
+                                            <div class="col-md-12 typewriter text-wid" >
+
+                                                
+                                                <div class="text-widd">
+                                                    <p>Skilled in C/C++, Data Structures and Algorithms, HTML, CSS, JavaScript, React, MERN Stack technologies, MySQL and have some basic knowledge on Java and PHP. I also know how to use technologies like Git and Netlify. ALso know how to operate OS like windows and linux.</p> <br><br>
+                                                    <p>Made around 20 websites which uses technologies like HTML, CSS, JavaScript, React, jquery, MERN etc for just learning purposes.</p><br><br>
+                                                    <p>My Final Year project is the development of Big mart Sales analysis which uses various technologies with data learning using machine learning.</p><br><br>
+                                                    <p>Apart form it i have developed C++ menu driven banking system which uses all the C++ features like classes, objects, OOP's concept etc, which has all the basic features of the bank like creating accounts, withdraw, deposit etc.</p> <br><br>
+                                                    <p>For more details you can visit my <a href="https://in.linkedin.com/in/ar-faisal ">LinkedIn</a> profile or just <a class="smooth-scroll" href="#contact">Contact</a> me. </p>
+                                                
+                                                    <br><br>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;/p&#62; </div>
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&#60;/body&#62; </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <div class=" skills-svg">
+                    
+                </div>
+                <!-- MY EDUCATION-->
+                <section id="myeducation">
+                    <div class="content-box-lg">
+                        <div class="child1">
+    
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    
+                                </div>
+                                <div class="col-md-12 lContainer">
+                                    <div class="container">
+                                        <div class="row">
+                                            
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12">  <br>	 </div>
+                                            <div class="col-md-12">  <br>	 </div>
+                                            <div class="col-md-12">  <br>	</div>
+                                            <div class="col-md-12 htmlClass">  	&#60;body&#62; </div>
+                                           
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;h1&#62; </div>
+                                            <div class="col-md-1"></div>
+                                            <div class="col-md-11 sign">
+                                                <span class="fast-flicker">M</span>y&nbsp;<span class="flicker">E</span>du</span>cation
+                                                
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;/h1&#62; </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;p&#62; </div>
+                                            
+                                            
+                                            <div class="slidermain col-md-12">
+                                                <!-- The first slide -->
+                                                <div class="item">
+                                                    <div class="col-md-6">
+                                                        <img src="./img/Myeducation/sri_indu.png">
+                                                    </div>
+                                                    <div class="col-md-6 slidertext">
+                                                        <h2>Sri Indu Institute of Engineering</h2>
+                                                        <p>Ibrahimpatnam, Telangana 501510</p>
+                                                        <p>B.Tech. in Computer Science</p>
+                                                        <P>7 CGPA</P>
+                                                        <p>2019-2023</p>
+                                                    </div>        
+                                                </div>
+                                               
+                                                <!-- The second slide -->
+                                                <div class="item">
+                                                    <div class="col-md-6">
+                                                        <img src="./img/Myeducation/Rosary_school.png">
+                                                    </div>
+                                                    <div class="col-md-6 slidertext">
+                                                        <h2>Rosary Senior Secondary School</h2>
+                                                        <p>Kingsway Camp, Delhi 110007</p>
+                                                        <p>Class 12(CBSE)</p>
+                                                        <p>8.08 CGPA</p>
+                                                        <p>2017-2018</p>
+
+                                                    </div>        
+                                                </div>
+                                                <!-- The third slide -->
+                                                <div class="item">
+                                                    <div class="col-md-6">
+                                                        <img src="./img/Myeducation/Rosary_school.png">
+                                                    </div>
+                                                    <div class="col-md-6 slidertext">
+                                                        <h2>Rosary Senior Secondary School</h2>
+                                                        <p>Kingsway Camp, Delhi 110007</p>
+                                                        <p>Class 10(CBSE)</p>
+                                                        <p>8.8 CGPA</p>
+                                                        <p>2016</p>
+
+                                                    </div>        
+                                                </div>
+                                                <!-- Arrow buttons -->
+                                                
+                                              </div>
+                                              <div class="col-md-12 slider">
+                                                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                                                <a class="next" onclick="nextSlide()">&#10095;</a>
+                                              </div>
+    
+                                            
+    
+    
+    
+                        
+                                            <div class="col-md-12 htmlClass sliderspacep">  	&nbsp;&nbsp;&#60;/p&#62; </div>
+                                            <div class="col-md-12 htmlClass sliderspaceb">  	&#60;/body&#62; </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                
+                                <div class="col-md-12"> <br> </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>    
+                    
+                </section>
+                <!-- MY WORk -->
+                <section id="mywork">
+                    <div class="content-box-lg">
+                        <div class="child1">
+
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    
+                                </div>
+                                <div class="col-md-12 lContainer">
+                                    <div class="container">
+                                        <div class="row">
+                                            
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12">  <br>	 </div>
+                                            <div class="col-md-12">  <br>	 </div>
+                                            <div class="col-md-12">  <br>	</div>
+                                            <div class="col-md-12 htmlClass">  	&#60;body&#62; </div>
+                                           
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;h1&#62; </div>
+                                            <div class="col-md-1"></div>
+                                            <div class="col-md-11 sign">
+                                                <span class="fast-flicker">M</span>y&nbsp;<span class="flicker">E</span>du</span>cation
+                                                
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;/h1&#62; </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;p&#62; </div>
+                                            <div class="col-md-12 ">  
+                                                <div id="isotope-filters">
+                                                    <button class="btn active" data-filter="*"><span>All</span></button>
+                                                    <button class="btn" data-filter=".logo"><span>Logo</span></button>
+                                                    <button class="btn" data-filter=".web"><span>Web</span></button>
+                                                    <button class="btn" data-filter=".mobile"><span>Mobile</span></button>
+                                                    <button class="btn" data-filter=".desktop"><span>Desktop</span></button>
+                                                    <button class="btn" data-filter=".hello"><span>hello</span></button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12"> 
+                                                <div class="works-wrapper">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div id="isotope-container">
+                                    
+                                 
+                                                                <div class="col-md-3 col-sm-6 col-xs-12 desktop hello">
+                                                                    <div class="portfolio-item">   
+                                                                       <!-- portfolio item01-->
+                                                                       <a href="img/portfolio/001.jpg" title="Add Description">
+                                                                            <img src="img/portfolio/001.jpg" class="img-responsive" alt="portfolio 01">
+                                                                            <div class="portfolio-item-overlay">
+                                                                                <div class="portfolio-item-details ">
+                                                                                    <!-- Item Header -->
+                                                                                    <h3> Logo</h3>
+                                                                                    
+                                                                                    <!-- item Strips-->
+                                                                                    <span></span>
+                                                                                    
+                                                                                    <!-- item description -->
+                                                                                    <p>Desktop, Design</p>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </div>
+                                                                </div> 
+                                                                <div class="col-md-3 col-sm-6 col-xs-12 web">
+                                                                    <div class="portfolio-item">
+                                                                        <!-- portfolio item02-->
+                                                                        <a href="img/portfolio/002.jpg" title="Add Description">
+                                                                            <img src="img/portfolio/002.jpg" class="img-responsive" alt="portfolio 02">
+                                                                            <div class="portfolio-item-overlay">
+                                                                                <div class="portfolio-item-details text-center">
+                                                                                    <!-- Item Header -->
+                                                                                    <h3> Photoshop</h3>
+                                                                                    
+                                                                                    <!-- item Strips-->
+                                                                                    <span></span>
+                                                                                    
+                                                                                    <!-- item description -->
+                                                                                    <p>Web Design , Illustrarion</p>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </div>
+                                                               </div>
+                                                                <div class="col-md-3 col-sm-6 col-xs-12 web mobile logo">
+                                                                    <div class="portfolio-item">
+                                                                        <!-- portfolio item03-->
+                                                                        <a href="img/portfolio/003.jpg" title="Add Description">
+                                                                            <img src="img/portfolio/003.jpg" class="img-responsive" alt="portfolio 03">
+                                                                            <div class="portfolio-item-overlay">
+                                                                                <div class="portfolio-item-details text-center">
+                                                                                    <!-- Item Header -->
+                                                                                    <h3> Web Design</h3>
+                                                                                    
+                                                                                    <!-- item Strips-->
+                                                                                    <span></span>
+                                                                                    
+                                                                                    <!-- item description -->
+                                                                                    <p>Video, web</p>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                               <div class="col-md-3 col-sm-6 col-xs-12 logo web">
+                                                                    <div class="portfolio-item">
+                                                                        <!-- portfolio item04-->
+                                                                        <a href="img/portfolio/004.jpg" title="Add Description">
+                                                                        <img src="img/portfolio/004.jpg" class="img-responsive" alt="portfolio 04">
+                                                                            <div class="portfolio-item-overlay">
+                                                                                <div class="portfolio-item-details text-center">
+                                                                                    <!-- Item Header -->
+                                                                                    <h3> Logo</h3>
+                                                                                    
+                                                                                    <!-- item Strips-->
+                                                                                    <span></span>
+                                                                                    
+                                                                                    <!-- item description -->
+                                                                                    <p>Desktop, Design</p>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                               <div class="col-md-3 col-sm-6 col-xs-12 web">
+                                                                    <div class="portfolio-item">
+                                                                        <!-- portfolio item05-->
+                                                                        <a href="img/portfolio/005.jpg" title="Add Description">
+                                                                            <img src="img/portfolio/005.jpg" class="img-responsive" alt="portfolio 05">
+                                                                            <div class="portfolio-item-overlay">
+                                                                                <div class="portfolio-item-details text-center">
+                                                                                    <!-- Item Header -->
+                                                                                    <h3> Photoshop</h3>
+                                                                                    
+                                                                                    <!-- item Strips-->
+                                                                                    <span></span>
+                                                                                    
+                                                                                    <!-- item description -->
+                                                                                    <p>Web Design , Illustrarion</p>
+                                                                                
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                   </div>
+                                                               </div>
+                                                               <div class="col-md-3 col-sm-6 col-xs-12 logo desktop">
+                                                                    <div class="portfolio-item">
+                                                                        <!-- portfolio item06-->
+                                                                        <a href="img/portfolio/006.jpg" title="Add Description">
+                                                                            <img src="img/portfolio/006.jpg" class="img-responsive" alt="portfolio 06">
+                                                                            <div class="portfolio-item-overlay">
+                                                                                <div class="portfolio-item-details text-center">
+                                                                                    <!-- Item Header -->
+                                                                                    <h3> Logo</h3>
+                                                                                    
+                                                                                    <!-- item Strips-->
+                                                                                    <span></span>
+                                                                                    
+                                                                                    <!-- item description -->
+                                                                                    <p>Desktop, Design</p>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </div>
+                                                               </div>
+                                                               <div class="col-md-3 col-sm-6 col-xs-12 web mobile">
+                                                                    <div class="portfolio-item">
+                                                                        <!-- portfolio item07-->
+                                                                        <a href="img/portfolio/007.jpg" title="Add Description">
+                                                                            <img src="img/portfolio/007.jpg" class="img-responsive" alt="portfolio 07">
+                                                                            <div class="portfolio-item-overlay">
+                                                                                <div class="portfolio-item-details text-center">
+                                                                                    <!-- Item Header -->
+                                                                                    <h3> Photoshop</h3>
+                                                                                    
+                                                                                    <!-- item Strips-->
+                                                                                    <span></span>
+                                                                                    
+                                                                                    <!-- item description -->
+                                                                                    <p>Web Design , Illustrarion</p>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </div>
+                                                               </div>
+                                                               <div class="col-md-3 col-sm-6 web col-xs-12 mobile">
+                                                                    <div class="portfolio-item">
+                                                                        <!-- portfolio item08-->
+                                                                        <a href="img/portfolio/008.jpg" title="Add Description">
+                                                                            <img src="img/portfolio/008.jpg" class="img-responsive" alt="portfolio 08">
+                                                                            <div class="portfolio-item-overlay">
+                                                                                <div class="portfolio-item-details text-center">
+                                                                                    <!-- Item Header -->
+                                                                                    <h3> Mobile Design</h3>
+                                                                                    
+                                                                                    <!-- item Strips-->
+                                                                                    <span></span>
+                                                                                    
+                                                                                    <!-- item description -->
+                                                                                    <p>Video, web</p>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </div>
+                                                                </div> 
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;/p&#62; </div>
+                                            <div class="col-md-12 htmlClass">  	&#60;/body&#62; </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="col-md-12"> <br> </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Contact -->
+                <section id="contact">
+                    <div class="content-box-lg">
+                        <div class="child1">
+
+                        </div>
+
+                        
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12 lContainer">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-md-12 htmlClass">  	&#60;body&#62; </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;h1&#62; </div>
+                                            <div class="col-md-12 sign">
+                                                &nbsp;<span class="fast-flicker">&nbsp;&nbsp;C</span>on<span class="flicker">t</span>ac</span>t
+                                                
+                                            </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;/h1&#62; </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;p&#62; </div>
+                                            <div class="col-md-12 typewriter"> <p>&nbsp;&nbsp;&nbsp; I am Available Here :-</p> </div>
+                                             
+                                            <div class="col-md-12"> 
+                                                    
+                                                <ul class="social-list">
+                                                    
+                                                    <li><a href="https://github.com/ar-faisal"><i class="fab fa-github fa-2x"></i></a></li>
+                                                    <li><a href="https://in.linkedin.com/in/ar-faisal "><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+                                                    <li><a href="https://www.instagram.com/abdurrahman__faisal/"><i class="fab fa-instagram fa-2x"></i></a></li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-12 ">   
+                                                <div class="mr375 mr480">
+                                                    <br>
+                                                </div>	 
+                                            </div>
+                                            <div class="col-md-12">  <br>	</div>
+                                            <div class="col-md-12"> <br> </div>
+                                            <div class="col-md-12"> <br> </div>
+                                            <div class="col-md-12">  <br>	 </div>
+                                            <div class="col-md-12">  <br>	 </div>
+                                            <div class="col-md-12 htmlClass">  	&nbsp;&nbsp;&#60;/p&#62; </div>
+                                            <div class="col-md-12 htmlClass">  	&#60;/body&#62; </div>
+                                            <div class="col-md-12">  <br>	</div>    </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-sm-6 col-xs-12 moveUp">
+                                    <div id="map"></div> 
+                                </div>
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+      
+        <!-- FOOTER -->
+        <footer class="text-center">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-12">
+                        <p>
+                            Created and Maintained by <span>Faisal</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        </div>
+        
+        <!-- JQUERY JS-->
+        <script src="js/jquery.js">  </script>
+
+        <!-- 3D TAG CLOUD PLUGIN JS-->
+        <script src="js/jquery.svg3dtagcloud.min.js">  </script>
+
+        <!-- EASING JQUERY PLUGIN-->
+        <script src="js/jquery.easing.js">  </script>
+
+        <!-- MAPBOX PLUGIN-->
+        <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js"></script>
+
+        
+        <!-- BOOTSTRAP JS-->
+        <script src="js/bootstrap/bootstrap.js">  </script>
+
+        <!--PArticle Background-->
+        <script src="js/particlebackground.js"></script>
+
+        <!--ISOTOPE Background-->
+        <script src="js/isotope.pkgd.min.js"></script>
+
+        <!-- CUSTOM JS-->
+        <script src="js/script.js">  </script>
+    </body>
+</html>
